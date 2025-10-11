@@ -21,13 +21,10 @@ jobs:
       - name: 🧩 Checkout Repository
         uses: actions/checkout@v4
 
-      - name: ⚙️ Setup Pages
-        uses: actions/configure-pages@v4
-
       - name: 📦 Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .   # deploys everything in the repo root (HTML, CSS, etc.)
+          path: . 
 
       - name: 🌐 Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
