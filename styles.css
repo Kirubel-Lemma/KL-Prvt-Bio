@@ -1,4 +1,4 @@
-<style>
+
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -8,7 +8,7 @@
         header {
             position: relative;
             height: 520px;
-            background-image: url('img/background.png'); /* Replace with your background image */
+            background-image: url('img/background.png');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -54,8 +54,8 @@
         .profile-picture {
             position: absolute;
             bottom: 90px;
-            width: 350px; /* Size of the profile picture */
-            height: 450px; /* Size of the profile picture */
+            width: 350px; 
+            height: 450px; 
             overflow: hidden;
             z-index: 2;
         }
@@ -314,4 +314,3 @@
             text-align: center;
             color: #ffffff;
         }
-</style>
